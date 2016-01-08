@@ -32,23 +32,6 @@ X argument obligateur
 | /slow | | Affiche le temps minimum entre chaque message |
 | /code | | Ecrire du code formaté dans le chat |
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~English~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-|Command | Arguments |  Description |
-|:------:|:---------:|:--------------------------------------:|
-| / comment | | Show the link to the list of commands |
-| / Login | Password | Connection moderator / admin |
-| / logout | | Deconnection moderator / admin |
-| / clear | | Clears the cat |
-| / msg | Nickname | Send a Private Message |
-| / quit | | Leaving the cat |
-| / join | Room (Password) | Connect to a room |
-| / invite | Nickname | Invite a user in his room |
-| / slow | | Displays the minimum time between each message |
-| / code | | Write formatted code chat |
-
-
-
 ### Moderateurs
 
 |Command | Arguments |  Description |
@@ -58,13 +41,6 @@ X argument obligateur
 | /slow | | Affiche le temps entre chaque message |
 | /slow | Secondes | Change le temps minimum entre chaque message |
 
-|Command | Arguments |  Description |
-|:------:|:---------:|:--------------------------------------:|
-| / list | | Displays a list of connected users |
-| / kick | Nickname | Kicking an user chat |
-| / slow | | Displays the time between each message |
-| / slow | seconds | Change the minimum time between each message |
-
 ### Administrateurs
 
 |Command | Arguments |  Description |
@@ -72,10 +48,3 @@ X argument obligateur
 | /clean | | Efface le chat pour tous les utilisateurs |
 | /ban | Pseudo | Banni le pseudo + kick l'utilisateur |
 | /popup | HTML | Affiche un popup sur tous les ecrans |
-
-|Command | Arguments |  Description |
-|:------:|:---------:|:--------------------------------------:|
-| / clean | | Clears the chat for all users |
-| / ban | Nickname | Banned username + kick user |
-| / popup | HTML | Shows a popup on all screens |
-
