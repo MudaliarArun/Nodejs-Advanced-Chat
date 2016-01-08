@@ -17,6 +17,41 @@
 X argument obligateur
 (X) argument optionnel
 
+
+|Command | Arguments |  Description |
+|:------:|:---------:|:--------------------------------------:|
+| / comment | | Show the link to the list of commands |
+| / Login | Password | Connection moderator / admin |
+| / logout | | Deconnection moderator / admin |
+| / clear | | Clears the cat |
+| / msg | Nickname | Send a Private Message |
+| / quit | | Leaving the cat |
+| / join | Room (Password) | Connect to a room |
+| / invite | Nickname | Invite a user in his room |
+| / slow | | Displays the minimum time between each message |
+| / code | | Write formatted code chat |
+
+
+
+### Moderateurs
+
+
+|Command | Arguments |  Description |
+|:------:|:---------:|:--------------------------------------:|
+| / list | | Displays a list of connected users |
+| / kick | Nickname | Kicking an user chat |
+| / slow | | Displays the time between each message |
+| / slow | seconds | Change the minimum time between each message |
+
+### Administrateurs
+
+
+|Command | Arguments |  Description |
+|:------:|:---------:|:--------------------------------------:|
+| / clean | | Clears the chat for all users |
+| / ban | Nickname | Banned username + kick user |
+| / popup | HTML | Shows a popup on all screens |
+
 ### Utilisateurs classique
 
 |Commande | Arguments |  Description |
